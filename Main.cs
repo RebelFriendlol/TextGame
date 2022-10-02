@@ -11,6 +11,7 @@ namespace Oberon
             const string autor = "Bartosz Lorenc-Buśko";
             const string werjsa = "Alpha 0.0.1";
             Player gracz = new Player(); //Obiket gracza
+            others oth = new others();
 
             Console.Title = $"Oberon Autor: {autor}, Wersja: {werjsa} (Prace w toku)";  //Wypisywanie podstawowych informacji o programie na Title barze
 
@@ -21,5 +22,5 @@ namespace Oberon
 
         }
     }
-}
+}  
 
